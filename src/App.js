@@ -16,13 +16,11 @@ library.add(fab, fas, far);
 function App() {
   console.log(object);
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/detail" element={<Detail />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/search" element={<Search />} />
+      <Route path="/detail" element={<Detail />} />
+    </Routes>
   );
 }
 
